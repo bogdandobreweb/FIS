@@ -8,9 +8,11 @@ import java.sql.DriverManager;
  */
 public class DB_INFO {
     
-    private static String dbname = "osalogin";
-    private static String username = "dobre310899";
-    private static String password = "Vegeta99@";
+
+    private static String dbname = "java_inventory_db";
+    private static String username = "Bogdi";
+    private static String password = "061299Db";
+
     
        static Connection con=null;
     public static Connection getConnection()
